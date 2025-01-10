@@ -1,0 +1,189 @@
+body {
+    background-color: black;
+    overflow: auto;
+}
+.b1 {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    color: white;
+    background-color:#0b0909;
+    border: none;
+    display: inline-block;
+    width: 112px;
+    height: 50px;
+    
+}
+.b1:hover {
+    background-color: rgb(32, 32, 32);
+}
+.b1:active {
+    background-color: rgb(24, 24, 24);
+}
+.b2 {
+    position: fixed;
+    top: 5px;
+    left: 115.5px;
+    color: white;
+    background-color:#0b0909;
+    border: none;
+    display: inline-block;
+    width: 112px;
+    height: 50px;
+}
+.b2:hover {
+    background-color: rgb(32, 32, 32);
+}
+.b2:active {
+    background-color: rgb(24, 24, 24);
+}
+.heading {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkgreen;
+    color: white;
+    border: 2px solid silver;
+    border-radius: 4px;
+    width: 70%;
+    left: 15%;
+}
+.navi {
+    position: fixed;
+    left: 31%;
+    top: 14%;
+    border: 2px solid silver;
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.m {
+    position: fixed;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    color: white;
+    width: 20%;
+    top: 31%;
+    left: 40%;
+    font-size: 18px;
+}
+.s {
+    width: 250%;
+    font-size: 19px;
+}
+.art {
+    width: 250%;
+    font-size: 19px;
+}
+.as {
+    position: fixed;
+    top:0.5em;
+    left: 88.5%;
+    width: 10%;
+    height: 80%;
+    background-color: silver;
+    border: 1px solid silver;
+    border-radius: 15px;
+    padding: 10px;
+}
+.foot {
+    position: fixed;
+    top: 85%;
+    left: -1px;
+    border: 2px solid darkgreen;
+    background-color: darkgreen;
+    width: 101%;
+    height: 15%;
+    color: white;
+    font-size: 19px;
+    display: flex;
+}
+.multicolor {
+    animation: multi 5s linear infinite;
+}
+.varysize {
+    animation: vary 1s linear infinite;
+}
+#img {
+    position: relative;
+    top: 20%;
+    left: 1%;
+}
+#img1 {
+    padding-left: 20px;
+    position: relative;
+    top: 21.5%;
+    left: 1%;
+}
+#img2 {
+    padding-left: 20px;
+    position: relative;
+    top: 22%;
+    left: 1%;
+}
+#img3 {
+    padding-left: 20px;
+    position: relative;
+    top: 22%;
+    left: 1%;
+}
+
+@keyframes multi {
+    from {
+        color: red;
+    }
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: green;
+    }
+    80% {   
+        color: blue;
+    }
+    to {
+        color: red;
+    }
+}
+@keyframes vary {
+    from {
+        font-size: 19px;
+    }
+    25% {
+        font-size: 20px;
+    }
+    50% {
+        font-size: 19px;
+    }
+    75% {
+        font-size: 18px;
+    }
+    to {
+        font-size: 19px;
+    }
+}
+.animated-text span {
+    display: inline-block;
+    animation: bounce 0.5s ease-in-out infinite;
+  }
+  
+  .animated-text span:nth-child(1) { animation-delay: 0s; }
+  .animated-text span:nth-child(2) { animation-delay: 0.1s; }
+  .animated-text span:nth-child(3) { animation-delay: 0.2s; }
+  .animated-text span:nth-child(4) { animation-delay: 0.3s; }
+  .animated-text span:nth-child(5) { animation-delay: 0.4s; }
+  .animated-text span:nth-child(6) { animation-delay: 0.5s; }
+  .animated-text span:nth-child(7) { animation-delay: 0.6s; }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
